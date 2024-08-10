@@ -3,41 +3,47 @@
 /*  ----------------------------------------------  */
 
 :root {
-    --color-primary: #f2f2f2;
-    --color-secondary: #1a477b;
-    --color-accent: #14ba57;
-    --color-header: rgb(17, 17, 17);
-    --color-text: rgb(65, 65, 65);
-    --color-white: rgb(247, 247, 248);
+	--blue: hsl(246, 80%, 60%);
+	--lightRed: hsl(15, 100%, 70%);
+	--softBlue: hsl(195, 74%, 62%);
+	--lightRedStudy: hsl(348, 100%, 68%);
+	--limeGreen: hsl(145, 58%, 55%);
+	--violet: hsl(264, 64%, 52%);
+	--orange: hsl(43, 84%, 65%);
+
+	--veryDarkBlue: hsl(226, 43%, 10%);
+	--darkBlue: hsl(235, 46%, 20%);
+	--desaturatedBlue: hsl(235, 45%, 61%);
+	--paleBlue: hsl(236, 100%, 87%);
 }
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    border: 1px solid red;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	border: 1px solid red;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    /* Add font-family as needed */
-    font-family: sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    min-height: 100vh;
-    /* border & padding accounted for in element's width/height */
-    box-sizing: border-box;
+	/* Add font-family as needed */
+	font-family: sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	min-height: 100vh;
+	/* border & padding accounted for in element's width/height */
+	box-sizing: border-box;
 }
 
 @media screen and (min-width: 360px) {
-    .body {
-        font-size: 31.25%;
-    }
+	.body {
+		font-size: 31.25%;
+	}
 }
 
 img,
@@ -45,15 +51,15 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-    font: inherit;
+	font: inherit;
 }
 
 /*  ----------------------------------------------  */
