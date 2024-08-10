@@ -2,6 +2,8 @@
 import Card from "../components/Card.astro"
 import Head from "../components/Head.astro"
 import "../styles/style.css"
+
+const work = "work"
 ---
 
 <!doctype html>
@@ -17,7 +19,7 @@ import "../styles/style.css"
 				<Head />
 			</div>
 			<div class="profile__container">
-				<Card />
+				<Card id={"card-" + work} />
 				<Card />
 				<Card />
 				<Card />
