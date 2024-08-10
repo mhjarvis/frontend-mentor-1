@@ -1,15 +1,3 @@
-## Colors
-
-### Primary
-
-## Typography
-
-### Body Copy
-
-- Font size: 18px (card titles e.g. Work, Play)
-
-### Font
-
 - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
 - Weights: 300, 400, 500
 
