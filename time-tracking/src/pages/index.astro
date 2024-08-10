@@ -1,5 +1,6 @@
 ---
 import Card from "../components/Card.astro"
+import Head from "../components/Head.astro"
 import "../styles/style.css"
 ---
 
@@ -11,8 +12,10 @@ import "../styles/style.css"
 		<title>Time tracking dashboard</title>
 	</head>
 	<body>
-		<main class="profile">
-			<div class="profile__head">sdf</div>
+		<main class="container">
+			<div class="head__container">
+				<Head />
+			</div>
 			<div class="profile__container">
 				<Card />
 				<Card />
@@ -26,14 +29,14 @@ import "../styles/style.css"
 </html>
 
 <style>
-	.profile {
+	.container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
 
-	.profile__head {
+	.head__container {
 		max-width: 375px;
 		width: 100%;
 	}
@@ -44,6 +47,8 @@ import "../styles/style.css"
 		display: grid;
 		grid-template-columns: 327px;
 		grid-template-rows: repeat(6, 160px);
-		gap: 10px;
+		gap: 20px;
+		justify-content: center;
+		padding: 20px 0;
 	}
 </style>
