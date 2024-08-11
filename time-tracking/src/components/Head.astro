@@ -1,5 +1,11 @@
 ---
-
+import { Image } from "astro:assets"
+import profile from "../images/image-jeremy.png"
 ---
 
-<div class="head__container">adsfasdf</div>
+<div class="container">
+	<div class="profile">
+		<Image src={profile} alt="" class="profile__image" />
+		<div class="profile__section"></div>
+	</div>
+</div>
