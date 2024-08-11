@@ -11,16 +11,18 @@ import profile from "../images/image-jeremy.png"
 			<p class="profile__name">Jeremy Robson</p>
 		</div>
 	</div>
-	<div class="date">
-		<button class="daily-button">Daily</button>
-		<button class="weekly-button">Weekly</button>
-		<button class="monthly-button">Monthly</button>
+	<div class="date__container">
+		<button class="daily-button date-button">Daily</button>
+		<button class="weekly-button date-button">Weekly</button>
+		<button class="monthly-button date-button">Monthly</button>
 	</div>
 </div>
 
 <style>
 	.container {
 		max-width: 327px;
+		background-color: var(--darkBlue);
+		border-radius: 15px;
 	}
 	.profile {
 		background-color: #5747ea;
@@ -53,5 +55,20 @@ import profile from "../images/image-jeremy.png"
 		font-weight: 200;
 		color: white;
 		margin-top: -5px;
+	}
+
+	.date__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		padding: 2rem;
+	}
+
+	.date-button {
+		font-size: 18px;
+		font-weight: 400;
+		color: #7078c9;
+		background-color: var(--darkBlue);
+		border: none;
 	}
 </style>
